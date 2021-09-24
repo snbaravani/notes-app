@@ -11,13 +11,21 @@ This project builds and exposes 8 APIs [http://localhost:8080/v1/note]
 8. Get all tags
 9. Get a funny note from Chuck Norris 
 
-All the APIs can be accessed after docker runs at : **_http://localhost:8080/swagger-ui.html#/**_
+All the APIs can be accessed after docker runs at : http://localhost:8080/swagger-ui.html#/
+
+API Documentation is available at : http://localhost:8080/v2/api-docs
+
+**Test reports will be available at**: code_base/target/site/surefire-report.html
+
 
 **Technologies used:**
 
 Progaramming language: Java 11
+
 Framework: Spring Boot
+
 Build Tool: Maven 3.x
+
 Database: H2
 
 **System Requirement**:
@@ -38,4 +46,4 @@ notes-app:1.0 : is the docker image name created by the maven command
 data: Directory inside docker that holds the H2 database data
 
 
-**Test reports will be available at**: /target/site/surefire-report.html
+
